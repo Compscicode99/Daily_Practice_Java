@@ -13,7 +13,7 @@ class Bank{
             return -1;
         }
     }
-
+//withdraw method
     public void Withdraw(double amount){
         this.bankBalance -= amount;
         System.out.println("Withdrawn successfully !!!! \nYour balance is now :  "+bankBalance);
